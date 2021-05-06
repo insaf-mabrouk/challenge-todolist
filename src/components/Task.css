@@ -1,0 +1,17 @@
+.task{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+/* .task>p{
+    flex: 1;
+} */
+
+.todo--done{
+    text-decoration: line-through;
+}
