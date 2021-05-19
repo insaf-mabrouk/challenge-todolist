@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import Task from './Task';
 
 
-
 const ListTask = ({ todolist }) => {
   return(
     <div className='todolist'>

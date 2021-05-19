@@ -19,7 +19,7 @@ const reducer = (state = initialState, action) => {
            })
 
         case deleteItem:
-            return ({...state, todo:state.todo.filter((el)=>el.id !=action.payload)
+            return ({...state, todo:state.todo.filter((el)=>el.id !==action.payload)
             })
         
         case filterItem:
